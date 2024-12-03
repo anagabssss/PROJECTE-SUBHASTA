@@ -1,0 +1,24 @@
+def foo():
+    print("hola")
+def foo_dos(a):
+    print(a)
+def foo_fructifer():
+    return "hola"
+def foo_fructifera_dos(a):
+    return a
+foo()
+foo_dos("adeu")
+print(type(foo()))
+print(type(foo_fructifer)))
+print(type(foo_fructifera_dos ("adios pascual")))
+print (type("a"))
+if foo_fructifer()== "hola":
+    print("buenas")
+else print ("malas")#escriurà malas-->la funció foo no és "hola"
+##########
+a =True
+i=0
+while a:
+    i+=1
+    if i ==5:
+        a=False
