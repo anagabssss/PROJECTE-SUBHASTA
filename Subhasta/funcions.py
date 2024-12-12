@@ -122,7 +122,18 @@ def menu():
     Tria la teva opció: 1
     1
     """
-
+    tria= 0
+    opcio1= " Afegir productes a la subhasta. "
+    opcio2= " Eliminar producte de la subhasta. "
+    opcio3= " Veure productes de la subhasta ordenats per preu. "
+    opcio4= " Iniciar subhasta. "
+    opcio5= " Veure historial de subhastes. "
+    opcio6= " Sortir. "
+    print("Menu Subhasta Virtual")
+    print("=======================")
+    print("1. " + opcio1 + " \n2. " + opcio2 + " \n3. " + opcio3 +  " \n4. " + opcio4 + " \n5. " + opcio5+ " \n6. " + opcio6 )
+    tria = int(input( "Tria la teva opcio: "))
+ 
 #tasques opcionals
 
 def loadProductsFromFile():
