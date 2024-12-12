@@ -1,0 +1,5 @@
+llista de productes subhastables
+nom de producte
+descripció
+preu de sortida
+índex d'un producte

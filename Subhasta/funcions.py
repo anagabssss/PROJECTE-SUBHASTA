@@ -1,5 +1,4 @@
-def addProduct():
-
+def addProduct(llista):
     """
     Donada una llista de productes subhastables, un
     nom de producte, una descripció i un preu de sortida, 
@@ -12,7 +11,8 @@ def addProduct():
     [{’name’: ’Port`atil HP’, ’description’: ’16 GB RAM, SSD 512 GB’, ’price’: 500}]
     """
 
-def removeProduct():
+
+def removeProduct(llista, index):
     """
     Donada una llista de productes subhastables
     i l’índex d’un producte, elimini aquest producte de la llista.
@@ -24,7 +24,7 @@ def removeProduct():
     []
     """
 
-def showProductsSortedByPrice():
+def showProductsSortedByPrice(llista):
     """
     Donada una llista de productes subhastables, mostri la informació 
     dels productes subhastables ordenats per preu de sortida en ordre 
@@ -51,7 +51,7 @@ def showProductsSortedByPrice():
     2. Portàtil HP - 16 GB RAM (Preu de sortida: 500)
     """
 
-def startAuction():
+def startAuction(llista):
     """
     Donada una llista de productes subhastables, una llista de productes 
     ja subhastats i un índex de producte, gestioni una subhasta d’aquest 
